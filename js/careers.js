@@ -4,7 +4,5 @@
 */
 
 $(document).ready(function(){
-    $(".jb-new-slide .show-case-img").on("hover", function(event){
-        $(event.target).parent().find("p").toggle("on");
-    });
+    
 });

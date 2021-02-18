@@ -9,6 +9,11 @@
     text-decoration: none;
 }
 
+@keyframes hoverAnimation {
+    from {top: 270px;}
+    to {top: 0px;}
+}
+
 blockquote, h1, h2, h3, h4{
     -webkit-font-smoothing: antialiased;
     color: #202124;
@@ -158,13 +163,22 @@ section:nth-of-type(2) a {
 
 .img-hover{
     position: absolute;
-    top: 0;
+    top: 270px;
     bottom: 0;
-    background: #f0d7aa;
+    background: #9bd9f9;
     opacity: .8;
-    display: none;
     border-radius: 5%;
-    width: 450px;
+    width: 420px;
+    overflow: hidden;
+    padding: 15px 15px 0 15px;
+    content-visibility: hidden;
+}
+
+.img-hover:hover{
+    animation-name: hoverAnimation;
+    animation-duration: 1s;
+    top: 0px;
+    content-visibility: visible;
 }
 
 .jb-new-slide{
@@ -181,14 +195,17 @@ section:nth-of-type(2) a {
     cursor: pointer;
 }
 
-.on{
-    display: block;
-}
-
 .int-new-slide .detail h3{
     color: #818aff;
 }
 
+.int-new-slide .space, .show-case-img img{
+    flex: 1;
+}
+
+.int-new-slide .detail{
+    flex: 2;
+}
 
 .int-new-slide .detail h3:before{
     border-left: 5px solid #1a22ff !important;
