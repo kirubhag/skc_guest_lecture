@@ -1,0 +1,120 @@
+/* 
+    Created on : 21 Feb, 2021, 10:34:22 PM
+    Author     : kirubha-2911
+*/
+
+@font-face{font-family:'Century Gothic';font-weight:normal;font-style:normal;src:local('Century Gothic'),url('/blobcontent/zty/fonts/CenturyGothic.ttf') format('truetype')}
+@font-face{font-family:'Century Gothic';font-weight:bold;font-style:normal;src:local('Century Gothic Bold'),url('/blobcontent/zty/fonts/CenturyGothicBold.ttf') format('truetype')}
+@font-face{font-family:'Century Gothic';font-weight:bold;font-style:italic;src:local('Century Gothic Bold Italic'),url('/blobcontent/zty/fonts/CenturyGothicBoldItalic.ttf') format('truetype')}
+@font-face{font-family:'Century Gothic';font-weight:normal;font-style:italic;src:local('Century Gothic Italic'),url('/blobcontent/zty/fonts/CenturyGothicItalic.ttf') format('truetype')}
+
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0;vertical-align:baseline;background:transparent}
+body{background:#FFF;text-align:left;font-feature-settings:"liga" 0;-moz-font-feature-settings:"liga" off}
+#document.skn-srz7 ol,#document.skn-srz7 ul{list-style:none}
+#document.skn-srz7 table{border-collapse:collapse;border-spacing:0;font-size:inherit;color:inherit;width:100%}
+
+/*START content disc style for LI*/
+#document.skn-srz7 ul,#document.skn-srz7 li{margin:0;padding:0;list-style-type:disc}
+#document.skn-srz7 ul li{margin:0 0 0 16px;padding:0}
+@-moz-document url-prefix() {#document.skn-srz7 ul li{margin:0 0 0 12px;padding:0 0 0 3px}}
+/*END content disc style for LI*/
+
+/*topsection css*/
+#document.skn-srz7 .topsection{display:table;table-layout:fixed;width:100%}
+#document.skn-srz7 .left-box,#document.skn-srz7 .right-box{display:table-cell;vertical-align:top}
+#document.skn-srz7 .left-box{box-sizing:initial;position:relative;width:100%}
+#document.ZFR.skn-srz7 .left-box{width:75%}
+
+#document.skn-srz7{box-sizing:border-box}
+#document.skn-srz7 .name{color:#252932;font-size:15px;line-height:17px;font-weight:bold;padding:0;text-align:left}
+#document.skn-srz7 .paragraph{position:relative;clear:both}
+#document.skn-srz7 .heading{clear:both;font-weight:bold;color:#252932;border-bottom:1px solid #CCC}
+#document.skn-srz7 .sectiontitle{color:#252932;word-wrap:break-word;vertical-align:middle;display:inline}
+#document.skn-srz7 .address{position:relative;text-align:left;font-size:0.917em;line-height:1.25em;margin-top:0}
+#document.skn-srz7 .table_wrapper{width:100%;margin-top:0}
+#document.skn-srz7 table.twocol td{width:50%}
+#document.skn-srz7 table.skills{width:100%}
+#document.skn-srz7 table.skills th,#document.skn-srz7 table.skills td{width:20%;text-align:center}
+#document.skn-srz7 table.skills th{text-decoration:underline}
+#document.skn-srz7 table.skills .skillname,#document.skn-srz7 table.skills .skillrating{text-align:left;width:35%}
+#document.skn-srz7 table.skills .skillrating{width:20%}
+#document.skn-srz7 table.skills .skillyears,#document.skn-srz7 table.skills .skilllast{width:19%}
+#document.skn-srz7 table.skills .pad1{width:5%}
+#document.skn-srz7 table.skills .pad2,#document.skn-srz7 table.skills .pad3{width:1%}
+#document.skn-srz7 .mb5{margin-bottom:5px}
+#document.skn-srz7 .resumeTitle{text-align:left;color:#252932;font-weight:500}
+#document.skn-srz7 td.twocol_2{border-left:1px  solid #FEFDFD}
+#document.skn-srz7 .addressright, #document.skn-srz7 .addressleft{display:table-cell; width:40%}
+
+#document.skn-srz7 span.paddedline{display:block}
+#document.skn-srz7 .txtRight{text-align:right;clear:both}
+#document.skn-srz7 span.jobtitle,#document.skn-srz7 span.degree,#document.skn-srz7 span.programline{font-weight:bold}
+#document.skn-srz7 span.dates_wrapper{font-weight:bold;display:block;float:left;text-align:left;padding-right:10px}
+#document.skn-srz7 .txtItalics{font-style:italic}
+
+/*Icons*/
+#document.skn-srz7 .iconRow{clear:both;padding-bottom:7px;word-wrap:break-word}
+#document.skn-srz7 .iconRow .iconSvg{width:20px;height:20px;float:left;margin-right:5px}
+#document.skn-srz7 .iconRow .icoTxt{margin-left:25px}
+
+#document.skn-srz7 .headingIcon{display:inline-block;vertical-align:middle;margin-right:5px}
+#document.skn-srz7 .headingIcon svg{height:30px;width:30px;display:block}
+
+#document.skn-srz7 .iconRow svg rect,#document.skn-srz7 .headingIcon svg rect{fill:#252932}
+#document.skn-srz7 .iconRow svg path,#document.skn-srz7 .headingIcon svg path{fill:#fff}
+
+#document.skn-srz7 .ratingWrapper{float:right;text-align:right;height:10px;padding:3px 0}
+#document.skn-srz7 .rtngSec .txtRight{position:relative;top:-3px}
+#document.skn-srz7 .ratingWrapper svg{height:13px}
+#document.skn-srz7 .ratingWrapper .default-fill{fill:#252932}
+
+/*PICT*/
+#document.skn-srz7:not(.ZFR) .photo{display:none}
+#document.skn-srz7.ZFR .prflPic,#document.skn-srz7.ZFR .prflPic > div{float:right;width:122px;height:122px}
+#document.skn-srz7.ZFR .prflPic img{min-width:100%;max-width:100%;min-height:100%;max-height:100%}
+
+
+#document.skn-srz7,#document.skn-srz7 table{line-height:16px}
+/*#document.skn-srz7.pagesize{width:612px}*/
+#document.skn-srz7.fontsize{font-size:18px;line-height: 2;}
+#document.skn-srz7.fontface{font-family:Century Gothic}
+#document.skn-srz7.vmargins{padding-top:24px;padding-bottom:24px}
+#document.skn-srz7.hmargins{padding-left:24px;padding-right:24px}
+#document.skn-srz7 .section{padding-top:20px}
+#document.skn-srz7 .address{font-size:18px;line-height:21px;padding-top:15px}
+#document.skn-srz7 .heading{margin-bottom:10px}
+#document.skn-srz7 .jobtitle,span.degree,span.programline{font-size:14px}
+#document.skn-srz7 .paragraph{padding-top:10px}
+#document.skn-srz7 .rtngSec .paragraph{padding-top:5px}
+#document.skn-srz7 .firstsection,#document.skn-srz7 .firstparagraph,#document.skn-srz7 .SECTION_CNTC{padding-top:0!important}
+#document.skn-srz7 .section.photo{padding-top:10px}
+#document.skn-srz7 .singlecolumn,#document.skn-srz7 .maincolumn{margin-left:120px}
+#document.skn-srz7 .sectiontitle,#document.skn-srz7 .resumeTitle{font-size:16px;line-height:21px}
+#document.skn-srz7 .name{font-size:36px;line-height:46px}
+#document.skn-srz7 table.skills td{padding-top:5px}
+#document.skn-srz7 .noPind{margin-left:0}
+#document.skn-srz7 .name,#document.skn-srz7 .sectiontitle,#document.skn-srz7 .resumeTitle{color:#252932}
+#document.skn-srz7  span.dates_wrapper{width:110px;font-size:11px;line-height:17px}
+
+/* Icon */
+#document.skn-srz7 .iconRow svg rect,#document.skn-srz7 .headingIcon svg rect{fill:#252932}
+#document.skn-srz7 .ratingfield p{display:inline}
+
+/*Phase 2: fixes for builder page*/
+#document.skn-srz7 .sortable-item .sectiontitle,body.SRZ7 .parent-drag.active#document.skn-srz7 .sectiontitle{display:inline}
+#document.skn-srz7 .sortableInner .sortable-item.active .wrapper-bg + div,
+body.SRZ7 #document.skn-srz7  ._single-parent-drag.active#document.skn-srz7 .wrapper-bg + div{position:relative;z-index:11}
+#document.skn-srz7 .sortable-item .singlecolumn span:first-child,
+body.SRZ7 ._single-parent-drag.active#document.skn-srz7 .singlecolumn span:first-child{display:inline-block}
+#document.skn-srz7 .ratingWrapper .default-fill{fill:#252932}
+
+.modal-content{
+    margin: auto 20%;
+    position: relative;
+    top: 75px;
+    height: 855px;
+}
+
+#document{
+    border: 2px solid;
+}
