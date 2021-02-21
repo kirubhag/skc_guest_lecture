@@ -7,6 +7,7 @@
     margin: 0;
     padding: 0;
     text-decoration: none;
+    list-style: none;
 }
 
 @keyframes hoverAnimation {
@@ -47,8 +48,15 @@ header{
     background: #fff;
     box-shadow: 0 2px 6px 0 rgb(0 0 0 / 12%), inset 0 -1px 0 0 #dadce0;
     border-top: 2px solid red;
+    z-index: 10;
 }
 
+.flex-dir-row-rev{
+    flex-direction: row-reverse;
+}
+.bgColWhite{
+    background-color: #fff !important;
+}
 header h2{
     color: #000;
 }
@@ -213,4 +221,73 @@ section:nth-of-type(2) a {
 
 .int-new-slide .detail a{
     background: #818aff;
+}
+
+.tips-wrap{
+    position: relative;
+    top: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 0 !important;
+    padding: 50px 0;
+}
+
+.tips-wrap ul li{
+    padding-left: 26px;
+    position: relative;
+    margin-top: 16px;
+    text-rendering: optimizeLegibility;
+    font-family: "Roboto",Arial,Helvetica,sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: .1px;
+    line-height: 28px;
+    color: #5f6368;
+}
+
+.tips-wrap ul li::before{
+    bottom: calc(100% - 14px);
+    top: -95%;
+    width: 1px;
+    left: 8px;
+}
+
+.tips-wrap ul li::before, .tips-wrap ul li::after{
+    background-color: #0071ff;
+    content: '';
+    position: absolute;
+}
+
+.tips-wrap ul li::after{
+    border-radius: 50%;
+    height: 6px;
+    top: 11px;
+    left: 5px;
+    width: 6px;
+}
+
+.tips-wrap p{
+    text-rendering: optimizeLegibility;
+    font-family: "Roboto",Arial,Helvetica,sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: .1px;
+    line-height: 28px;
+    color: #5f6368;
+}
+
+.tips-wrap h3{
+    flex: 1;
+    text-align: center;
+    background: #00FF00;
+    background: -webkit-linear-gradient(to left, #00FF00 0%, #00FFFF 100%);
+    background: -moz-linear-gradient(to left, #00FF00 0%, #00FFFF 100%);
+    background: linear-gradient(to left, #00FF00 0%, #00FFFF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.tips-wrap ul{
+    flex: 1;
 }
